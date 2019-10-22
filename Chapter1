@@ -30,3 +30,16 @@ client is able to talk to server on port 8082
 
 site opens up.
 -------------------------------------
+
+
+
+To Initial Github
+cd
+cd Backend
+ls -a
+npm install
+npm start
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/tejamuddada/Backend.git  --> points to repository to copy
+git push -u origin master ---> copies data over to other person's github
