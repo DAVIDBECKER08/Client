@@ -1,0 +1,32 @@
+Chapter 1: Creation of Server/Client on GCP and validating the code
+
+create GCP account
+Create project name
+set the project
+#gcloud config set project "project name" 
+open cloudshell
+git clone server(https://github/....)
+cd to server and install npm, start npm
+
+open cloudshell 
+git clone client(https://github/....)
+cd to client and install npm, start npm
+
+start/preview/port
+
+add dependencies (on server)
+"body-parser":"^1.19.0",  
+
+
+
+https://github.com/KevinRattan/startpoint.git
+npm install
+npm audit
+npm fix
+
+npm start
+--------------------------------
+client is able to talk to server on port 8082
+
+site opens up.
+-------------------------------------
