@@ -31,9 +31,17 @@ client is able to talk to server on port 8082
 site opens up.
 -------------------------------------
 
+To Clone from github to Cloud Shell
+cd
+cd UI ---> into folder you need to be into
+git pull http:etc.   (Whatever link is with the file need, e.g., UI/Backend)
+npm install
+npm audit
+npm start
 
+----------------------
+To Initiate Github
 
-To Initial Github
 cd
 cd Backend
 ls -a
@@ -43,3 +51,13 @@ git add .
 git commit -m "initial commit"
 git remote add origin https://github.com/tejamuddada/Backend.git  --> points to repository to copy
 git push -u origin master ---> copies data over to other person's github
+
+
+---
+To checkout branch
+git branch --> see which branc you are o
+git pull origin <branch name> ---> git origin is shorthand for the originally repository mapped.  when this doesn't work, use the fetch/reset method below
+git checkout <branch name> --> this points you to the new branch
+
+git fetch --all
+git reset --hard origin/master --> use this to refresh pull from git if accidently screw up code on local copy
